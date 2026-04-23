@@ -1,0 +1,67 @@
+#logo {
+    width: 100px;
+}
+
+header {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#contenedor-ul {
+    width: 50%;
+}
+
+
+#paginas {
+
+    background-color: rgb(212, 156, 156);
+    display: flex;
+    justify-content: space-around;
+
+}
+
+footer {
+    background-color: chartreuse;
+    justify-content: flex-end;
+}
+
+#contenedor_3imagenes {
+    display: flex;
+    min-height: 500px;
+    background-color: rgb(24, 29, 162);
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+
+.foto-pelea {
+    height: 200px;
+    width: 200px;
+}
+
+#pelea {
+    display: flex;
+    align-self: center;
+}
+
+#equipos {
+    display: flex;
+    align-self: flex-end;
+}
+
+#grilla_6imagenes {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+    grid-template-rows: 200px 200px;
+
+}
+
+#grilla_6imagenes img {
+    width: 200px;
+    height: 100%;
+
+}
