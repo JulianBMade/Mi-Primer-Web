@@ -1,0 +1,128 @@
+/*#logo {
+    width: 100px;
+}
+
+header {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#contenedor-ul {
+    width: 50%;
+}
+
+
+#paginas {
+
+    background-color: rgb(212, 156, 156);
+    display: flex;
+    justify-content: space-around;
+
+}
+
+footer {
+    background-color: chartreuse;
+    justify-content: flex-end;
+}
+
+#contenedor_3imagenes {
+    display: flex;
+    min-height: 500px;
+    background-color: rgb(24, 29, 162);
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+
+.foto-pelea {
+    height: 200px;
+    width: 200px;
+}
+
+#pelea {
+    display: flex;
+    align-self: center;
+}
+
+#equipos {
+    display: flex;
+    align-self: flex-end;
+}*/
+
+
+
+$color_texto: #FFFFFF;
+$color_fondo: #159A9C;
+$color_header: #002333;
+$color_footer: #B4BEC9;
+$color_secundario: #DEEFE7;
+
+#logo {
+    width: 100px;
+}
+
+#grilla_6imagenes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+    grid-template-rows: repeat(2, 200px);
+    padding: 20px;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+    }
+}
+
+header {
+    background-color: $color_header ;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#contenedor-ul {
+    width: 50%;
+}
+
+
+#paginas {
+
+    background-color: $color_secundario;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+footer {
+    background-color: $color_footer;
+    justify-content: flex-end;
+}
+
+#contenedor_3imagenes {
+    display: flex;
+    min-height: 500px;
+    background-color: $color_fondo;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+
+.foto-pelea {
+    height: 200px;
+    width: 200px;
+}
+
+#pelea {
+    display: flex;
+    align-self: center;
+}
+
+#equipos {
+    display: flex;
+    align-self: flex-end;
+}
