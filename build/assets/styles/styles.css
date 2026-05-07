@@ -1,54 +1,4 @@
-/*#logo {
-    width: 100px;
-}
-
-header {
-    background-color: aqua;
-    display: flex;
-    justify-content: space-between;
-
-}
-
-#contenedor-ul {
-    width: 50%;
-}
-
-
-#paginas {
-
-    background-color: rgb(212, 156, 156);
-    display: flex;
-    justify-content: space-around;
-
-}
-
-footer {
-    background-color: chartreuse;
-    justify-content: flex-end;
-}
-
-#contenedor_3imagenes {
-    display: flex;
-    min-height: 500px;
-    background-color: rgb(24, 29, 162);
-    flex-flow: column wrap;
-    justify-content: space-between;
-}
-
-.foto-pelea {
-    height: 200px;
-    width: 200px;
-}
-
-#pelea {
-    display: flex;
-    align-self: center;
-}
-
-#equipos {
-    display: flex;
-    align-self: flex-end;
-}*/
+@charset "UTF-8";
 #logo {
   width: 100px;
 }
@@ -111,4 +61,45 @@ footer {
 #equipos {
   display: flex;
   align-self: flex-end;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+#contenedor_logo {
+  display: flex;
+  align-items: space-between;
+}
+
+/*
+TAREA PARA MEJORAR LOS ESTILOS
+
+Borrá el bloque grande de código viejo que está comentado al principio del archivo.
+Si ya no se usa, no hace falta dejarlo ahí.
+
+Revisá el header:
+Tiene que quedar más prolijo.
+El logo y el menú deberían estar alineados verticalmente.
+Agregale espacio interno para que no quede todo pegado a los bordes.
+
+Revisá el footer:
+Actualmente tiene justify-content, pero fijate si realmente está funcionando.
+Pensá qué propiedad falta para que justify-content tenga efecto.
+
+Mejorá la grilla de 6 imágenes:
+Intentá que se vea bien en pantallas grandes y también en pantallas más chicas.
+Las imágenes deberían mantener un tamaño ordenado y no deformarse.
+
+Revisá #contenedor_3imagenes:
+Pensá si flex-flow: column wrap es realmente necesario.
+Si querés que las imágenes estén una debajo de la otra, buscá una forma más clara de hacerlo.
+
+Usá mejor las variables de color:
+Ya tenés variables creadas arriba.
+Fijate si podés aplicar $color_texto en lugares donde haya texto.
+
+Agregá estilos generales:
+El body no debería tener márgenes por defecto.
+La página debería tener una tipografía definida.
+
+OBJETIVO:
+Que la página se vea más ordenada, que el código sea más limpio y que los estilos funcionen de verdad.
+No agregues cosas al azar: cada propiedad que pongas tiene que tener una razón.
+*//*# sourceMappingURL=styles.css.map */
